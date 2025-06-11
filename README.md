@@ -5,7 +5,7 @@ This repository contains recipes for numerical solutions of the equations 18 and
 $$\frac{a}{L} - \frac{1}{\Pi} \int_{-k}^{-1} \frac{\sqrt(\zeta - p)}{\sqrt(\zeta + k)\sqrt(1 - \zeta^{2})} d\zeta = 0 $$
 $$\frac{b}{L} - \frac{1}{\Pi} \int_{-1}^{p} \frac{\sqrt(p - \zeta)}{\sqrt(\zeta + k)\sqrt(1 - \zeta^{2})} d\zeta = 0$$
 
-describe the slip length for shear driven laminar flow over longitudinal superhydrophobic microgrooves with receding contact lines, for given $a\L$ and $b/L$ values where $1 \le k \le \infty$ and $-1 \le p \le 1$ are the unknowns (see figures 1 and 3 of Crowdy's paper) for a description of the parameters.
+describe the slip length for shear driven laminar flow over longitudinal superhydrophobic microgrooves with receding contact lines, for given $a/L$ and $b/L$ values where $1 \le k \le \infty$ and $-1 \le p \le 1$ are the unknowns (see figures 1 and 3 of Crowdy's paper) for a description of the parameters.
 
 The reulting $p$ and $k$ are then used to evaluate the slip length via
 
