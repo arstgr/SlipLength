@@ -10,4 +10,8 @@ describe the slip length for shear driven laminar flow over longitudinal superhy
 
 The script "solve.py" provides a solution for this system of equations for given values of $a$ and $b$. Figure below demonstrates the solution, superimposed with the solutions from figure 4 of Crowdy's paper for comparison and verification. 
 
+<p align="center">
+  <img src="crowdy_solved.png" alt="olution of Crowdy's equations">
+</p>
+
 The integrals are very stiff and required high precision arithmetic for evaluation, due to singularity at the boundaries. The resulting system of equation could be solved using the reqular Newton Raphson, however during the iterations the root falls into the complex plain, requiring careful treatment. Additionally, if you look carefully there is a small sign difference between these and Crowdy's equations. There seems to be a typo in his original paper. 
